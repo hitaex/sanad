@@ -166,10 +166,9 @@
 
 ## 🖼️ صور من التطبيق
 
-> *(يُفضّل إضافة صور هنا)*
 
 ```md
-![مثال إسناد](info/APP/screenshot.png)
+![مثال إسناد](info/APP/image.png)
 ```
 
 ---
@@ -441,10 +440,9 @@ Portable. Shareable. Reproducible.
 
 ## 🖼️ Screenshots
 
-> *(Add screenshots here for maximum impact)*
 
 ```md
-![Sanad Graph Example](info/APP/screenshot.png)
+![Sanad Graph Example](info/APP/image.png)
 ```
 
 ---
