@@ -20,7 +20,6 @@ MANIFEST
 # PyInstaller
 *.spec
 *.manifest
-*.exe
 
 # PyQt6 specific
 *.pyqt6
