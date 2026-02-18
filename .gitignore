@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# PyInstaller
+*.spec
+*.manifest
+*.exe
+
+# PyQt6 specific
+*.pyqt6
+*.ui
+*.qrc
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific - exclude the dist build folder
+/dist/
+
+# But keep the source directories
+!src/
+!Data/
+!info/
+!media/
+!assets/
+
+# Keep the Data structure but ignore any potential temp files in it
+Data/
+!Data/
+Data/*.tmp
+Data/*.log
+Data/*.bak
+
+# JSON cache/temp files (if you have any)
+*.json.tmp
+*.json.bak
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Test outputs
+*.test
+*.out
+*.err
+
+# Keep the directory structure for Data
+# This ensures we keep all the book data directories
+# but we can add patterns for specific file types if needed
+Data/**/*.tmp
+Data/**/*.log
+Data/**/*.bak
+
+# Optionally, if you want to ignore certain file types in Data
+# Data/**/*.pdf
+# Data/**/*.txt
+# Data/**/*.xml
+
+# RapidFuzz cache
+.rapidfuzz_cache/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project specific - keep important directories even if empty
+!.gitkeep

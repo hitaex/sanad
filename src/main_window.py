@@ -20,6 +20,7 @@ from models.database import DatabaseManager
 from models.narrator import Narrator
 from models.chain import Chain, ChainItem
 from ui.search_tab import SearchTab
+from ui.books_tab import BooksTab
 from ui.graph_tab import GraphTab
 from ui.credits_tab import CreditsTab
 from ui.settings_tab import SettingsTab
@@ -84,17 +85,17 @@ class CombinedHadithApp(QMainWindow):
         self.tab_widget = QTabWidget()
         self.tab_widget.setObjectName("mainTabs")
 
-        # Create tabs
         search_tab = SearchTab(self)
         graph_tab = GraphTab(self)
+        books_tab = BooksTab(self)
         credits_tab = CreditsTab(self)
         settings_tab = SettingsTab(self)
 
         self.tab_widget.addTab(search_tab, "🔍 البحث في الرواة")
         self.tab_widget.addTab(graph_tab, "🌳 رسم السند")
+        self.tab_widget.addTab(books_tab, "📚 الكتب")
         self.tab_widget.addTab(settings_tab, "⚙️ الإعدادات")
         self.tab_widget.addTab(credits_tab, "ℹ️ حول البرنامج")
-
         main_layout.addWidget(self.tab_widget, 1)
 
         # Create status bar

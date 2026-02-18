@@ -89,11 +89,13 @@ class GraphController:
                 node.text_item.setFont(font)
                 
                 # Re-center text after possible size change
+                node_rect = node.rect()
                 text_rect = node.text_item.boundingRect()
                 node.text_item.setPos(
-                    (node.rect().width() - text_rect.width()) / 2,
-                    (node.rect().height() - text_rect.height()) / 2
+                    (node_rect.width() - text_rect.width()) / 2,
+                    (node_rect.height() - text_rect.height()) / 2
                 )
+                node.update()
 
             # Connect to parent
             if parent_node:
@@ -177,11 +179,13 @@ class GraphController:
                 node.text_item.setFont(font)
                 
                 # Re-center text after possible size change
+                node_rect = node.rect()
                 text_rect = node.text_item.boundingRect()
                 node.text_item.setPos(
-                    (node.rect().width() - text_rect.width()) / 2,
-                    (node.rect().height() - text_rect.height()) / 2
+                    (node_rect.width() - text_rect.width()) / 2,
+                    (node_rect.height() - text_rect.height()) / 2
                 )
+                node.update()
 
             if parent_node:
                 line = ConnectionLine(parent_node, node, method=method, curved=(level > 0))
