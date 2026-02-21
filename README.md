@@ -32,7 +32,7 @@
 # تحميل وتشغيل
 
 ### 🔹 Windows
-1- [Download the EXE file](https://github.com/7c3beb69-fbf0-45e0-b26a-51b901f5fd96)
+1- [Download the EXE file](blob:https://github.com/fb663cee-3cbd-4757-88a0-cac9c7fb1bf6)
 
 
 ---
