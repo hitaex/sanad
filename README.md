@@ -32,8 +32,7 @@
 # تحميل وتشغيل
 
 ### 🔹 Windows
-1- [Download the EXE file](blob:https://github.com/fb663cee-3cbd-4757-88a0-cac9c7fb1bf6)
-
+1- [Download the EXE file]( https://github.com/hitaex/sanad/raw/refs/heads/main/WINDOWS/Sanad.exe )
 
 ---
 
