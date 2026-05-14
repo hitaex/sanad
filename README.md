@@ -295,7 +295,7 @@ GNU public Licence
 
 ## حقوق الملكية
 
-* **التصميم والتطوير:** عبد الله العنزي (أبو دحيم)
+* **التصميم والتطوير:** عبد الله الرماني (أبو دحيم)
 * **الخط والتصميم البصري:** أ. الفيفي
 * **شكر خاص:** للمختبرين الأوائل والمساهمين
 
@@ -568,7 +568,7 @@ GPL — free to use, modify, and distribute.
 
 ## 🙏 Credits
 
-* **Design & Development:** عبد الله العنزي (أبو دحيم)
+* **Design & Development:** عبد الله الرماني (أبو دحيم)
 * **Calligraphy & Visual Design:** أ. الفيفي
 * **Special Thanks:** Early testers & contributors
 
